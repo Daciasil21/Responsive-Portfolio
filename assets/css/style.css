@@ -238,92 +238,12 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* mobile*/
-
-  
-@media screen and (max-width: 640px){
-   #main-container{
-      padding:10px;
-      }
-
-    .sidebar{
-       width:100%;
-       max-width: 640px;
-       text-align: left;
-      }
-   #logo {
-      position:static;
-      display:block;
-      width:100%;
-      max-width: 640px;
-     }
-   nav{
-      position:static;
-      float:left;
-      width:100%;
-      text-align: center;
-      max-width: 640px;
-     }
-   #masthead{
-    position:static;
-    }
-    
-  .auth-image{
-    display: block;
-    width:100%;
-    max-width: 640px;
-    }
-
-    .work{
-    display: block;
-    width:100%;
-    max-width: 640px;
-    }
-} 
-
-  /*tablet*/
-@media screen and (max-width: 768px){  
-
-    #main-container{
-      padding:20px;
-     }
-     
-    nav{
-      float:left;
-      margin-left: 150px;
-      text-align: center;
-      max-width: 768px;
-     }
-     
-   #masthead{
-    position:static;
-    max-width: 768px;
-    width:100%;
-    padding-left:50px;
-    }
-
-    #logo {
-      margin-left:30px;
-     }
-
-    .main-section{
-      max-width:768px;
-     }
-
-    .sidebar{
-       width:100%;
-       max-width: 768px;
-       text-align: left;
-       }
-
-}
-
 /*desktop*/
-@media screen and (max-width: 980px){
+@media screen and (max-width: 983px){
 
   #main-container{
      padding-top:0px;
-     padding-left:60px;
+     padding-left:89px;
      padding-right: 60px;
      }
 
@@ -359,3 +279,102 @@ input[type=submit] {
      padding-right: 0px;
     }
 }
+
+  /*tablet*/
+@media screen and (max-width: 768px){  
+
+    #main-container{
+      padding:20px;
+     }
+     
+    header{
+      position:static;
+    }
+
+    nav{
+      position:static;
+      padding-left: 50px;
+      text-align: center;
+      max-width: 768px;
+     }
+     
+   #masthead{
+    position:static;
+    max-width: 768px;
+    width:100%;
+    padding-left:5px;
+    }
+
+    #logo {
+      position:static;
+      margin-left:15px;
+     }
+
+    .main-section{
+      max-width:768px;
+     }
+
+    .sidebar{
+      float:left;
+       width:100%;
+       max-width: 768px;
+       text-align: left;
+       }
+
+}
+/* mobile*/
+
+  
+@media screen and (max-width: 640px){
+
+   #main-container{
+      padding:30px;
+      } 
+
+   #logo {
+      position:static;
+      display:block;
+      width:100%;
+      max-width: 640px;
+      margin-left: 0px;
+     }
+   nav{
+     position:static;
+      width:100%;
+      text-align: center;
+      max-width: 640px;
+      margin:auto;
+     }
+       
+       #masthead{
+    position:static;
+    max-width:640px;
+    width:100%;
+    padding-left: 0px;
+
+    }
+
+    .main-section {
+      width:100%;
+      max-width: 640px;
+  
+    }
+    
+  .auth-image{
+    display: block;
+    width:100%;
+    max-width: 640px;
+    }
+    
+    .sidebar{
+       width:100%;
+       max-width: 640px;
+       text-align: left;
+      }
+
+    .work{
+    display: block;
+    width:100%;
+    max-width: 640px;
+    }
+} 
